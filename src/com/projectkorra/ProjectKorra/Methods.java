@@ -1440,21 +1440,21 @@ public class Methods {
 
 			}
 
-			if (gpp != null && respectGriefPrevention) {
-				String reason = GriefPrevention.instance.allowBuild(player,
-						location);
-
-				if (ignite.contains(ability)) {
-
-				}
-
-				if (explode.contains(ability)) {
-
-				}
-
-				if (reason != null)
-					return true;
-			}
+//			if (gpp != null && respectGriefPrevention) {
+//				String reason = GriefPrevention.instance.allowBuild(player,
+//						location);
+//
+//				if (ignite.contains(ability)) {
+//
+//				}
+//
+//				if (explode.contains(ability)) {
+//
+//				}
+//
+//				if (reason != null)
+//					return true;
+//			}
 		}
 
 		return false;
